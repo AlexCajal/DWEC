@@ -420,7 +420,7 @@ for (let index = date.getFullYear(); index<2100; index++) {
 //EJ 41 Crea un programa que pida el nombre a usuario la primera vez que visita el documento, si ya la ha visitado que le muestre un mensaje “Hola nombreUsuario, otra vez por aquí”.  Si no la ha visitado que le de la bienvenida y almacene su nombre en la cookie. Utiliza una cookie “usuario”.La fecha de expiración de la cookie es de un año o 365 días.
 //Observación: este ejercicio NO funciona ejecutado en local, lo tienes que probar en un entorno web real o con una extensión de VS Code  tipo Live Server
 
-if (document.cookie === ""){
+/* if (document.cookie === ""){
     let n = prompt("Introduce tu nombre de ususario");
     setCookie(n,0,365);
 }
@@ -432,4 +432,4 @@ function setCookie(cname, cvalue, exdays) {
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
   let expires = "expires="+d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
+} */
