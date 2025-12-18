@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="idx.css">
+    <script src="idx.js"></script>
+</head>
+
+<body>
+    <h1>Registro de Usuario</h1>
+
+    <form  class="contenedor" action="" method="post">
+            <section class="texto">
+                <label>Nombre: </label>
+                <label>Apellido: </label>
+                <label>Email: </label>
+                <label>DNI: </label>
+                <label>Contraseña: </label>
+                <label>Confirmar Contraseña: </label>
+                <label>¿Recibir avisos comerciales?: </label>
+            </section>
+            <section class="campos">
+                <input name="nombre" type="text"\>
+                <input name="apellidos" type="text"\>
+                <input name="email" type="text"\>
+                <input name="dni" type="text"\>
+                <input name="contrasenia" type="text"\>
+                <input name="confContrasenia" type="text"\>
+                <input name="avisos" type="checkbox"\>
+                <br>
+                <button>Registrarse</button>
+            </section>
+            <section class="camposVacios">
+                <span name="nombreError"></span>
+                <span name="apellidosError"></span>
+                <span name="emailError"></span>
+                <span name="dniError"></span>
+                <span name="contraseniaError"></span>
+                <span name="confContraseniaError"></span>
+                <span name="avisosError"></span>
+            </section>
+    </form>
+</body>
+
+</html>

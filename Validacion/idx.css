@@ -1,0 +1,24 @@
+.camposVacios{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    display: flex;   
+}
+.texto{
+    display: flex;
+    width: 20vh;
+    flex-direction: column;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+    width: 20vh;
+}
+.Error{
+    color: red;
+    background-color: rgba(231, 1, 1, 0.267);
+}
+label,span{
+    height: 2.2vh;
+}
